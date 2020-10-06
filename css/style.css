@@ -1,0 +1,47 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: #FFFFFF;
+}
+
+a {
+  color: rgba(0, 0, 0, .5);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+.tic-tac-toe-wrap {
+  width: 154px;
+  height: 154px;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+
+.tic-tac-toe-grid {
+  font-family: 'Monoton';
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.message {
+  background: #C1DFC1;
+  margin: 10px 0 18px 0;
+  padding: 20px;
+}
+
+.error-message {
+  background: #FF8080;
+  margin: 10px 0 18px 0;
+  padding: 20px;
+}
